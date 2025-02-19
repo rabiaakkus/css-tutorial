@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(res/arkaplan.png);
+    min-height: 100vh;/*body'nin minimum yüksekliğini ekran yüksekliği kadar ayarlar*/
+    background-size: cover;/*resmin ekranı kaplaması için kullanılır*/
+}
+
+header{
+  background-color: rgb(215, 212, 207);
+
+  text-align: center;
+  padding: 5px;
+}
+
+.card{
+ background-color: #d5dedeec;
+    padding: 5px;
+    color: #f7f0f0;
+}
+
+.tur{
+    background-color: rgb(136, 4, 4);
+    padding: 5px;
+}
+
+
+.yer{
+    padding-top: 20px;
+    justify-content: center;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+footer{
+  background-color: rgb(215, 212, 207);
+  text-align: center;  
+  box-shadow: 0 0 5px #95a5a6; 
+  padding: 5px;
+}
